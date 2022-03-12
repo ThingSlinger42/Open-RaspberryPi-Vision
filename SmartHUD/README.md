@@ -2,7 +2,9 @@ This Python 3 script provides a basic "preview" with a time overlay and camera s
 
 This script requires picamerax and Pillow, both of which can be installed using pip:
 
-'' pip3 install Pillow picamerax ''
+```bash
+pip3 install Pillow picamerax
+```
 
 Note that since the camera preview overlay on the Pi is a GPU render overlay, you cannot view anything behind it once launched. You can still press Ctrl + D to kill the script or ssh and "killall python3" if all else fails.
 
