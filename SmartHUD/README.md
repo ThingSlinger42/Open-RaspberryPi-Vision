@@ -9,3 +9,5 @@ pip3 install Pillow picamerax
 Note that since the camera preview overlay on the Pi is a GPU render overlay, you cannot view anything behind it once launched. You can still press Ctrl + D to kill the script or ssh and "killall python3" if all else fails.
 
 Simply run the program as the user "pi" to use. I set up a systemd module to run the script on boot and it launches it as soon as Xwindows is running. I have included it as "SmartHUD.service". Restart="always" is uesd to ensure it continues attmepting to run the script until X is running.
+
+To install the systemd module, change ExecPath to the full path of the directory SmartHUD.py is in or place SmartHUD.py in /home/pi/SmartHUD. Then copy the module to /lib/systemd/system. Once that's done you can run "sudo systemctl enable SmartHUD". To verify that it works reboot the Raspberry Pi and see if it launches the script just before the desktop loads.
