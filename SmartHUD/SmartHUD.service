@@ -1,0 +1,11 @@
+[Unit]
+Description=SmartHUD
+
+[Service]
+WorkingDirectory=/home/pi/SmartHUD/
+User=pi
+ExecStart=/usr/bin/python3 /home/pi/SmartHUD/SmartHUD.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
