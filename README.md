@@ -1,7 +1,7 @@
 # Open-RaspberryPi-Vision
 Open source "night vision" for the masses made using easily available components with a Raspberry Pi Zero W at its core.
 
-The display I developed this around is a cheap hobby drone FPV headset with a 480x320 display. These are the 5.8GHz headsets that typically go for around $50-60 USD from the usual suspects. I am currently developing this to support the basic Raspberry Pi camera module v1 NoIR w/12 lens and FLIR's Lepton 3 series. Future plans currently include:
+The display I developed this around is a cheap hobby drone FPV headset with a 480x320 display. These are the 5.8GHz headsets that typically go for around $50-60 USD from the usual suspects in China. I am currently developing this to support the basic Raspberry Pi camera module v1 NoIR w/12 lens and FLIR's Lepton 3 series. Future plans currently include:
 - Reworking the hardware layout to allow easier access to the GPIO pins of the Pi
 - A way to access the desktop without needing to connect to the device via VNC or SSH
 - Developing and releasing 3D printable addons including a bigger battery compartment for better battery life and power delivery
