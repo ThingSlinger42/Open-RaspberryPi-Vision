@@ -15,7 +15,7 @@ with picamerax.PiCamera() as camera:
    camera.resolution = (vWidth, vHeight)
    #Camera settings are optimized for best low light performance without reducing framerate below useful levels
    camera.framerate = 24
-   camera.iso = 800
+   camera.iso = 1600
    camera.rotation = 180
    camera.led = False
    #these here are why picamerax is used, it includes the 'greyworld' awb mode for NoIR sensors and allows analog gain to be set manually
